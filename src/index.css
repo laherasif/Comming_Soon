@@ -17,7 +17,7 @@
 }
 
 * {
-
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -53,7 +53,23 @@ video {
   justify-content: start;
   align-items: center;
   color: white; */
-  color: white;
+}
+
+.main_wrapper {
+  padding: 45px;
+}
+
+.white_background {
+  background: #ffffffe0;
+}
+
+.black_big {
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  font-size: 6rem;
+  letter-spacing: 23px;
+  text-shadow: 0px 2px 10px #827c7c;
 }
 
 
@@ -69,4 +85,15 @@ video {
 @media screen and (max-width: 768px) {}
 
 /* Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+  .main_wrapper {
+    padding: 45px;
+  }
+
+  .black_big {
+    font-size: 2rem;
+    letter-spacing: 12px;
+  }
+
+
+}

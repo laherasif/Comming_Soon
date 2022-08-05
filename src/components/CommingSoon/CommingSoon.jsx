@@ -6,15 +6,22 @@ const CommingSoon = () => {
             <div className="overlay">
                 <video src={comming_soonvideo} autoPlay loop muted />
 
-                <div className="content">
+                <div className="content   " style={{ display: "flex" }}>
 
-                    <h4 className='theraputics'>THERAPEUTICS</h4>
-                    <h4 className='fairman'>A Fairman Company</h4>
-
-
+                    <div className='col-12 main_wrapper '>
+                        <div className='white_background'>
+                            <div className='row'>
+                                <div className='col-12 black_big'>
+                                    COMING
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
                 </div>
+
+
 
             </div>
         </div>
