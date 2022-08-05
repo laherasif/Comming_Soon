@@ -17,53 +17,45 @@
 }
 
 * {
-  font-family: 'Poppins', sans-serif;
+
+  margin: 0;
+  padding: 0;
 }
 
-
-
-/* package react-phone-number-input2 css */
-.react-tel-input .form-control {
-  width: 100% !important;
-  height: 42px !important;
-  font-size: 1rem !important;
-  font-family: 'Poppins', sans-serif !important;
-  font-weight: 400;
-  border: 2px solid rgb(156 163 175) !important;
-  border-radius: 0px !important;
+.main {
+  width: 100%;
+  height: 100vh;
 }
 
-.react-tel-input .form-control:focus {
-  border: 2px solid #60a5fa !important;
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+  /* background-color: #000000cc; */
 }
 
-.react-tel-input .selected-flag {
-  position: static !important;
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.flag-dropdown {
-  position: static !important;
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  color: white; */
+  color: white;
 }
 
-.custom-dropdown {
-  margin-top: 3px !important;
-  width: 100% !important;
-}
-
-.custom-dropdown input {
-  width: 90% !important;
-}
-
-.custom-dropdown .search:before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f002";
-}
-
-
-.accordion-button:not(.collapsed) {
-  color: #ff4949;
-}
 
 /*  ================================ RESPONSIVE CSS ================== */
 
