@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-light-gray {
+    background-color: #F0F0F0
+  }
+
+  .bg-light-red {
+    background-color: #E84025
+  }
+
+  .border-3 {
+    border-width: 3px
+  }
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* package react-phone-number-input2 css */
+.react-tel-input .form-control {
+  width: 100% !important;
+  height: 42px !important;
+  font-size: 1rem !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 400;
+  border: 2px solid rgb(156 163 175) !important;
+  border-radius: 0px !important;
+}
+
+.react-tel-input .form-control:focus {
+  border: 2px solid #60a5fa !important;
+}
+
+.react-tel-input .selected-flag {
+  position: static !important;
+}
+
+.flag-dropdown {
+  position: static !important;
+}
+
+.custom-dropdown {
+  margin-top: 3px !important;
+  width: 100% !important;
+}
+
+.custom-dropdown input {
+  width: 90% !important;
+}
+
+.custom-dropdown .search:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f002";
+}
+
+
+.accordion-button:not(.collapsed) {
+  color: #ff4949;
+}
+
+/*  ================================ RESPONSIVE CSS ================== */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (max-width: 1200px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (max-width: 992px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (max-width: 768px) {}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {}
