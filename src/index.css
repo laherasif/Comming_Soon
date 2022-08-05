@@ -22,6 +22,64 @@
   padding: 0;
 }
 
+
+/* COUNT DOWN CSS */
+
+.countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.countdown__box svg {
+  position: relative;
+}
+
+.countdown__box svg circle {
+  transform: rotate(-90deg);
+  transform-origin: center;
+  fill: transparent;
+}
+
+.countdown__box_circles {
+  position: relative;
+}
+
+.countdown__box_left {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  font-size: 20px;
+  background: white;
+  width: 76%;
+  height: 76%;
+  border-radius: 50%;
+  color: #71728E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.countdown__box_left .digits {
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.countdown__box_left .labels {
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.countdown__box_label {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+
 .main {
   width: 100%;
   height: 100vh;
@@ -56,20 +114,72 @@ video {
 }
 
 .main_wrapper {
-  padding: 45px;
+  padding: 20px 45px;
 }
 
 .white_background {
-  background: #ffffffe0;
+  background: #ffffff75;
+  padding: 20px 45px;
 }
 
 .black_big {
   color: black;
   text-align: center;
   font-weight: 600;
-  font-size: 6rem;
-  letter-spacing: 23px;
+  font-size: 3vw;
+  letter-spacing: 20px;
   text-shadow: 0px 2px 10px #827c7c;
+  line-height: 50px;
+}
+
+.red_big {
+  color: #D6420B;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2vw;
+  text-shadow: 0px 2px 5px #555555;
+  line-height: 43px;
+}
+
+.black_small {
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.red_small {
+  color: #D6420B;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 13px;
+}
+
+.black_paragraph {
+  padding: 0 30%;
+  text-align: justify;
+  font-size: 13px;
+}
+
+.Form_Wrapper {
+  padding: 0 7rem;
+}
+
+.undertext {
+  font-size: 13px;
+  text-align: center;
+  padding: 0 26rem;
+}
+
+.under_red_text {
+  color: #D6420B;
+  text-align: center;
+}
+
+.sabadel_logo {
+  width: 110px;
+  margin: 0 auto;
 }
 
 
@@ -87,12 +197,25 @@ video {
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
   .main_wrapper {
-    padding: 45px;
+    padding: 15px;
   }
 
   .black_big {
     font-size: 2rem;
     letter-spacing: 12px;
+  }
+
+  .red_big {
+    font-size: 1.8rem;
+  }
+
+  .black_small {
+    font-size: 15px;
+  }
+
+  .red_small {
+
+    font-size: 13px;
   }
 
 
