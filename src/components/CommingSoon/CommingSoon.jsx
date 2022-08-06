@@ -8,7 +8,7 @@ const CommingSoon = () => {
     return (
         <div className="main">
             <div className="overlay">
-                <video src={comming_soonvideo} autoPlay loop muted  />
+                <video src={comming_soonvideo} autoPlay loop muted />
                 <div className="content">
                     <div className='col-12 main_wrapper '>
                         <div className='white_background'>
@@ -51,21 +51,23 @@ const CommingSoon = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-12 my-[-13px]'>
+                    <div className='col-12 my-[-5px]'>
                         <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-                            <div className='col-4'>
+                            <div className='col-4 col-4 text-center text-red-600 font-bold'>
                                 <img src={sabadelLogo} className="sabadel_logo" />
+                                <small >sponser</small>
+
                             </div>
                             <div className='col-4 flex items-center justify-center'>
                                 <div className='text-center'>
-                                    <p className='text-white' >A PUBLIC SERVICE COMPANY</p>
-                                    <p className='text-white text-sm'>COPYRIGHT Ⓒ 2022 HPORx LTD</p>
+                                    <p className='text-black' >A PUBLIC SERVICE COMPANY</p>
+                                    <p className='text-black text-sm'>COPYRIGHT Ⓒ 2022 HPORx LTD</p>
                                 </div>
 
                             </div>
-                            <div className='col-4 text-center text-white'>
+                            <div className='col-4 text-center text-red-600 font-bold'>
                                 <img src={worldBankLogo} className="sabadel_logo" />
-                                <small>sponser</small>
+                                <small >sponser</small>
                             </div>
                         </div>
                     </div>
