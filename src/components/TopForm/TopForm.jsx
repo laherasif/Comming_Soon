@@ -18,7 +18,7 @@ const TopForm = () => {
                         showSelectedLabel={false}
                         showOptionLabel={false}
                     />
-                    <div className='lg:flex lg:justify-end form-field'>
+                    <div className='flex justify-end form-field'>
                         <input type="text " className=" focus:outline-none border-0 w-[64%]  placeholder:font-Poppins placeholder:font-medium p-2" placeholder="Your Name?" />
                         <button className='bg-light-red border-red-600 w-1/5 h-[40px] text-white font-Poppins font-medium'>Enter</button>
                     </div>
