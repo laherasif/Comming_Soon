@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import daysInYear from '../../helpers/daysInYear';
 import CountdownBox from './CountdownBox';
-
+import './counter.css'
 let interval;
 
 const Countdown = ({ date }) => {
