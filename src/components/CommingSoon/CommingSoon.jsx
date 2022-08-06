@@ -17,7 +17,7 @@ const CommingSoon = () => {
                                 <div className='col-12 red_big'>THERAPEUTIC</div>
                                 <div className='col-12 black_small'>Something Awesome is Coming</div>
                                 <div className='col-12 red_small'> The life saved may be your own</div>
-                                <div className='col-12 black_paragraph'>
+                                <div className='col-12 black_paragraph '>
                                     <p>
                                         The University Of Chicago Medical Center (UChicago Medicine)
                                         conducted the study of a similar plant base therapeutic usage in
@@ -43,7 +43,7 @@ const CommingSoon = () => {
                                 <div className='col-12 Form_Wrapper'>
                                     <TopForm />
                                 </div>
-                                <div className='col-12 undertext'>
+                                <div className='col-12 undertext web_text'>
                                     The web portal is under construction. Will be here soon with our awesome website!
                                     Subscribe to be notified!
                                 </div>
@@ -51,15 +51,15 @@ const CommingSoon = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-12 my-[-5px]'>
-                        <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+                    <div className='col-12 my-[-5px] footer_text '>
+                        <div className="footer_wraper" style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                             <div className='col-4 col-4 text-center text-red-600 font-bold'>
                                 <img src={sabadelLogo} className="sabadel_logo" />
                                 <small >sponser</small>
 
                             </div>
                             <div className='col-4 flex items-center justify-center'>
-                                <div className='text-center'>
+                                <div className='text-center '>
                                     <p className='text-black' >A PUBLIC SERVICE COMPANY</p>
                                     <p className='text-black text-sm'>COPYRIGHT Ⓒ 2022 HPORx LTD</p>
                                 </div>

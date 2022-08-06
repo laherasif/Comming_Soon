@@ -10,7 +10,7 @@ const TopForm = () => {
     return (
         <section className='row mb-1'>
             <div className="col-12">
-                <div className='text-center mt-5 relative  max-w-[42%] m-auto bg-white'>
+                <div className='text-center mt-5 relative form_input  max-w-[42%] m-auto bg-white'>
                     {/* <img src={uk} className="w-14 absolute left-[32%]" /> */}
                     <ReactFlagsSelect
                         selected={select}
@@ -18,7 +18,7 @@ const TopForm = () => {
                         showSelectedLabel={false}
                         showOptionLabel={false}
                     />
-                    <div className='flex justify-end'>
+                    <div className='lg:flex lg:justify-end form-field'>
                         <input type="text " className=" focus:outline-none border-0 w-[64%]  placeholder:font-Poppins placeholder:font-medium p-2" placeholder="Your Name?" />
                         <button className='bg-light-red border-red-600 w-1/5 h-[40px] text-white font-Poppins font-medium'>Enter</button>
                     </div>

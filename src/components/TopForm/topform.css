@@ -28,3 +28,55 @@
     left: 0;
     max-height: 150px;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+
+    .col-12 {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .Form_Wrapper {
+        padding: 0 0rem;
+        margin: 5px 0px;
+    }
+    .form_input{
+        max-width: 100%;
+    }
+    .form-field{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+   .form-field input{
+    padding-left: 15px;
+   }
+    .form-field input::placeholder{
+     padding-left: 5px;
+    }
+}
+
+@media (width:820px) {
+    .form-field{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .form_input{
+        max-width: 70%;
+    }
+}
+
+@media (width:912px) {
+    .form-field{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .form_input{
+        max-width: 70%;
+    }
+}
+
