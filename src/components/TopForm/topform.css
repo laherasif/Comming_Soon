@@ -28,55 +28,52 @@
     left: 0;
     max-height: 150px;
 }
+.form_input{
+    max-width: 70%;
+    margin: auto;
+    background-color: white;
+}
 
-/* Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 600px) {
 
-    .col-12 {
-        width: 100%;
-        padding: 0px;
-        margin: 0px;
-    }
-
-    .Form_Wrapper {
-        padding: 0 0rem;
-        margin: 5px 0px;
-    }
+@media screen and (width: 280px) {
     .form_input{
-        max-width: 90%;
-    }
-    .form-field{
-        display: flex;
-        justify-content: flex-end;
+        max-width: 90% !important;
+        margin: auto;
+        background-color: white;
     }
 
-   .form-field input{
-    padding-left: 15px;
-   }
-    .form-field input::placeholder{
-     padding-left: 5px;
+    .form_input input{
+        padding-left: 30px;
+    }
+    .ReactFlagsSelect-module_selectBtn__19wW7 {
+        width: 50%;
+        padding: 5px 5px;
     }
 }
 
-@media (width:820px) {
-    .form-field{
-        display: flex;
-        justify-content: flex-end;
-    }
+@media (max-width: 600px) {
 
+    .ReactFlagsSelect-module_flagsSelect__2pfa2 {
+        position: relative;
+        vertical-align: inherit;
+        padding-bottom: 5px;
+        /* text-align: left; */
+        width: 60px;
+        left: 0%;
+        position: absolute;
+    }
+    
     .form_input{
-        max-width: 70%;
+        max-width: 90% !important;
+        margin: auto;
+        background-color: white;
     }
 }
 
-@media (width:912px) {
-    .form-field{
-        display: flex;
-        justify-content: flex-end;
-    }
-
+@media (max-width: 991px) {
     .form_input{
-        max-width: 70%;
+        max-width: 75%;
+        margin: auto;
+        background-color: white;
     }
 }
-
