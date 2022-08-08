@@ -23,7 +23,7 @@
 }
 
 
-/* COUNT DOWN CSS */
+COUNT DOWN CSS
 
 .countdown {
   display: flex;
@@ -183,6 +183,13 @@ video {
   margin: 0 auto;
 }
 
+.desk_top{
+  display: block;
+}
+.mobile{
+  display: none;
+}
+
 
 /*  ================================ RESPONSIVE CSS ================== */
 
@@ -198,3 +205,21 @@ video {
 
 /* Medium devices (landscape tablets, 768px and up and laptops/desktops) */
 /*  */
+
+
+@media screen and (max-width:600px){
+
+  .overlay {
+    height: 100%;
+  }
+
+  .desk_top{
+    display: none;
+  }
+  .mobile{
+    display: flex;
+  }
+
+ 
+  
+}

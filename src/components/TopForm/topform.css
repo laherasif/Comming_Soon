@@ -30,7 +30,7 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
     .col-12 {
         width: 100%;
@@ -43,7 +43,7 @@
         margin: 5px 0px;
     }
     .form_input{
-        max-width: 100%;
+        max-width: 90%;
     }
     .form-field{
         display: flex;
@@ -79,4 +79,4 @@
         max-width: 70%;
     }
 }
- */
+

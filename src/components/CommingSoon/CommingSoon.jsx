@@ -4,76 +4,90 @@ import Countdown from '../CountDownTimer/CountDownTimer'
 import TopForm from '../TopForm/TopForm'
 import sabadelLogo from "../../assets/images/sabadel.png"
 import worldBankLogo from "../../assets/images/wbbbb.png"
+import MobileCountdown from '../MobileCountDownTimer/CountDownTimer'
+import './style.css'
 const CommingSoon = () => {
     return (
-        <div className="main">
-            <div className="overlay">
-                <video src={comming_soonvideo} autoPlay loop muted />
-                <div className="content">
-                    <div className='col-12 main_wrapper '>
-                        <div className='white_background'>
-                            <div className='row'>
-                                <div className='col-12 black_big'>COMING</div>
-                                <div className='col-12 red_big'>THERAPEUTIC</div>
-                                <div className='col-12 black_small'>Something Awesome is Coming</div>
-                                <div className='col-12 red_small'> The life saved may be your own</div>
-                                <div className='col-12 black_paragraph '>
-                                    <p>
-                                        The University Of Chicago Medical Center (UChicago Medicine)
-                                        conducted the study of a similar plant base therapeutic usage in
-                                        patients is significantly correlated with a reduction in COVID-19
-                                        positivity and considered to be one Of the most positive Inhibits
-                                        SARS-CoV-2 that's far examined my scientific inquisitors. The
-                                        product our platform focuses on is specifically cultivated wellness
-                                        and has a compounding biological effect on the aforementioned
-                                        discovery, truth through science. Please join us an alert allow us to
-                                        alert you the mornent The Centers for Disease Control (CDC) and
-                                        The European Center for Disease Prevention and Control releases
-                                        further information in this area in their quest to save lives and heal
-                                        families devastated by the hurnan health consequences and
-                                        mental health issues exacerbated by this recent pandemic
+        <>
+            <section className="showcase">
 
-                                    </p>
-                                </div>
-                                <div className='col-12'>
+                <video src={comming_soonvideo} autoPlay muted loop />
+                <div className="overlay" />
+                <div className="text_wrapper ">
+                    <div className='text '>
+                        <h2>Coming </h2>
+                        <h3>THERAPEUTIC</h3>
+                        <h4>Something Awesome is Coming</h4>
+                        <h5>The life saved may be your own</h5>
+                        <p>
+                            The University Of Chicago Medical Center (UChicago Medicine)
+                            conducted the study of a similar plant base therapeutic usage in
+                            patients is significantly correlated with a reduction in COVID-19
+                            positivity and considered to be one Of the most positive Inhibits
+                            SARS-CoV-2 that's far examined my scientific inquisitors. The
+                            product our platform focuses on is specifically cultivated wellness
+                            and has a compounding biological effect on the aforementioned
+                            discovery, truth through science. Please join us an alert allow us to
+                            alert you the mornent The Centers for Disease Control (CDC) and
+                            The European Center for Disease Prevention and Control releases
+                            further information in this area in their quest to save lives and heal
+                            families devastated by the hurnan health consequences and
+                            mental health issues exacerbated by this recent pandemic
+                        </p>
 
-                                    <Countdown date="September 30 2022 12:44 GMT+2" />
-
-                                </div>
-                                <div className='col-12 Form_Wrapper'>
-                                    <TopForm />
-                                </div>
-                                <div className='col-12 undertext web_text'>
-                                    The web portal is under construction. Will be here soon with our awesome website!
-                                    Subscribe to be notified!
-                                </div>
-                                <div className='col-12 under_red_text'>A Fairman Company</div>
-                            </div>
+                        <div className="couter_data">
+                            <Countdown date="September 30 2022 12:44 GMT+2" />
                         </div>
+
+                        <div className="form_data">
+                            <TopForm />
+                        </div>
+
+                        <div className="info_text">
+                            <span  > The web portal is under construction. Will be here soon with our awesome website!
+                                Subscribe to be notified!
+                            </span>
+                        </div>
+
+                        <div className="company_info_name text-red-400">
+                            <span>A Fairman Company</span>
+                        </div>
+
                     </div>
-                    <div className='col-12 my-[-5px] footer_text '>
-                        <div className="footer_wraper" style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-                            <div className='col-4 col-4 text-center text-red-600 font-bold'>
-                                <img src={sabadelLogo} className="sabadel_logo" />
+                    <div className="bottom_block flex justify-between relative mt-5 ">
+                        <div className="bottom_block_left">
+                            <div className="logo_first text-center text-1xl text-red-600 font-bold">
+                                <img className=' w-[140px]' src={sabadelLogo} alt="sabadel" />
                                 <small >sponser</small>
 
                             </div>
-                            <div className='col-4 flex items-center justify-center'>
-                                <div className='text-center '>
-                                    <p className='text-black' >A PUBLIC SERVICE COMPANY</p>
-                                    <p className='text-black text-sm'>COPYRIGHT Ⓒ 2022 HPORx LTD</p>
-                                </div>
+                        </div>
+
+                        <div className="bottom_block_center">
+                            <div className="company_detail">
+                                <h5>A Public Service Company</h5>
+                                <span>COPYRIGHT © 2022 HPORx LTD</span>
 
                             </div>
-                            <div className='col-4 text-center text-red-600 font-bold'>
-                                <img src={worldBankLogo} className="sabadel_logo" />
+                        </div>
+
+                        <div className="bottom_block_right">
+                            <div className="world_logo text-center text-1xl text-red-600 font-bold">
+                                <img className='w-[160px] ' src={worldBankLogo} alt="world bank" />
                                 <small >sponser</small>
+
                             </div>
                         </div>
+
                     </div>
+
                 </div>
-            </div>
-        </div>
+
+            </section>
+
+
+
+        </>
     )
 }
 

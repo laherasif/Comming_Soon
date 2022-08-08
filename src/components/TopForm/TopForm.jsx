@@ -10,7 +10,7 @@ const TopForm = () => {
     return (
         <section className='row mb-1'>
             <div className="col-12">
-                <div className='text-center mt-5 relative form_input  max-w-[42%] m-auto bg-white'>
+                <div className='text-center mt-5 relative form_input  max-w-[70%] m-auto bg-white'>
                     {/* <img src={uk} className="w-14 absolute left-[32%]" /> */}
                     <ReactFlagsSelect
                         selected={select}

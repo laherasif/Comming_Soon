@@ -1,4 +1,4 @@
-/* COUNT DOWN CSS */
+/* COUNT DOWN CSS
 
 .countdown {
     display: flex;
@@ -19,18 +19,20 @@
   
   .countdown__box_circles {
     position: relative;
+    width: 75px;
+
   }
   
-  .countdown__box_left {
+  .countdown__box_left_mobile {
     position: absolute;
-    top: 48%;
-    left: 50%;
+    top: 64%;
+    left: 53%;
     transform: translate(-50%, -50%);
     font-weight: 600;
     font-size: 20px;
     background: white;
-    width: 76%;
-    height: 76%;
+    width: 67%;
+    height: 45%;
     border-radius: 50%;
     color: #71728E;
     display: flex;
@@ -39,13 +41,13 @@
     flex-direction: column;
   }
   
-  .countdown__box_left .digits {
-    font-size: 33px;
+  .countdown__box_left_mobile .digits {
+    font-size: 20px;
     font-weight: 700;
   }
   
-  .countdown__box_left .labels {
-    font-size: 11px;
+  .countdown__box_left_mobile .labels {
+    font-size: 7px;
     font-weight: 700;
   }
   
@@ -53,4 +55,4 @@
     font-size: 14px;
     font-weight: 300;
     text-align: center;
-  }
+  } */
