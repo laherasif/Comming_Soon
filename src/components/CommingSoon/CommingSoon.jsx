@@ -56,14 +56,14 @@ const CommingSoon = () => {
                     </div>
                     <div className="bottom_block flex justify-between relative mt-5 ">
                         <div className="bottom_block_left">
-                            <div className="logo_first text-center text-1xl text-red-600 font-bold">
+                            <div className="logo_first text-center text-1xl text-red-600 font-samibold">
                                 <img className=' w-[140px]' src={sabadelLogo} alt="sabadel" />
-                                <small >sponser</small>
+                                <span >sponser</span>
 
                             </div>
                         </div>
 
-                        <div className="bottom_block_center">
+                        <div className="bottom_block_center ">
                             <div className="company_detail">
                                 <h5>A Public Service Company</h5>
                                 <span>COPYRIGHT © 2022 HPORx LTD</span>
@@ -72,9 +72,9 @@ const CommingSoon = () => {
                         </div>
 
                         <div className="bottom_block_right">
-                            <div className="world_logo text-center text-1xl text-red-600 font-bold">
+                            <div className="world_logo text-center text-1xl text-red-600 font-samibold">
                                 <img className='w-[160px] ' src={worldBankLogo} alt="world bank" />
-                                <small >sponser</small>
+                                <span >sponser</span>
 
                             </div>
                         </div>
