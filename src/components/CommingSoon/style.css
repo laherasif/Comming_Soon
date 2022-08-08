@@ -132,13 +132,30 @@
     text-align: center;
 }
 
-.bottom_block_left span{
-    padding-top: 12px;
+/* .bottom_block_left span{
+    padding-top: 13px !important;
     font-size: 14px;
+} */
+
+.bottom_block_left .logo_first{
+    display: flex;
+    flex-direction: column;
+}
+.bottom_block_left .logo_first span{
+   margin-top: 5px;
+   font-size: 14px;
+
 }
 
-.bottom_block_right span{
+.bottom_block_right .world_logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom_block_right .world_logo span{
     font-size: 14px;
+   margin-top: 2px;
+
 }
 
 

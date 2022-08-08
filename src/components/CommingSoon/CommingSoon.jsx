@@ -58,7 +58,7 @@ const CommingSoon = () => {
                         <div className="bottom_block_left">
                             <div className="logo_first text-center text-1xl text-red-600 font-samibold">
                                 <img className=' w-[140px]' src={sabadelLogo} alt="sabadel" />
-                                <span >sponser</span>
+                                <span  >sponser</span>
 
                             </div>
                         </div>
